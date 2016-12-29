@@ -1,0 +1,84 @@
+{
+  "info": [
+    {
+      "name": "sd_iv_rich_pkpd",
+      "classes": "data.frame",
+      "size_mb": 0.0346
+    }
+  ],
+  "preview": [
+    {
+      "ID": 1,
+      "TIME": 0,
+      "COBS": 0.2497,
+      "EOBS": 1.4289,
+      "WEIGHT": 57.1291,
+      "AGE": 50.1229,
+      "DOSE": 1,
+      "SEX": "Female",
+      "RACE": "AfricanAmerican",
+      "AMT": 1
+    },
+    {
+      "ID": 1,
+      "TIME": 0.5,
+      "COBS": 0.2244,
+      "EOBS": 0.9952,
+      "WEIGHT": 57.1291,
+      "AGE": 50.1229,
+      "DOSE": 1,
+      "SEX": "Female",
+      "RACE": "AfricanAmerican",
+      "AMT": 0
+    },
+    {
+      "ID": 1,
+      "TIME": 1,
+      "COBS": 0.1868,
+      "EOBS": 0.5249,
+      "WEIGHT": 57.1291,
+      "AGE": 50.1229,
+      "DOSE": 1,
+      "SEX": "Female",
+      "RACE": "AfricanAmerican",
+      "AMT": 0
+    },
+    {
+      "ID": 1,
+      "TIME": 2,
+      "COBS": 0.1722,
+      "EOBS": 0.5095,
+      "WEIGHT": 57.1291,
+      "AGE": 50.1229,
+      "DOSE": 1,
+      "SEX": "Female",
+      "RACE": "AfricanAmerican",
+      "AMT": 0
+    },
+    {
+      "ID": 1,
+      "TIME": 4,
+      "COBS": 0.116,
+      "EOBS": 0.3909,
+      "WEIGHT": 57.1291,
+      "AGE": 50.1229,
+      "DOSE": 1,
+      "SEX": "Female",
+      "RACE": "AfricanAmerican",
+      "AMT": 0
+    },
+    {
+      "ID": 1,
+      "TIME": 6,
+      "COBS": 0.0682,
+      "EOBS": 0.2253,
+      "WEIGHT": 57.1291,
+      "AGE": 50.1229,
+      "DOSE": 1,
+      "SEX": "Female",
+      "RACE": "AfricanAmerican",
+      "AMT": 0
+    }
+  ],
+  "time": ["2016-12-29 11:09:21"]
+}

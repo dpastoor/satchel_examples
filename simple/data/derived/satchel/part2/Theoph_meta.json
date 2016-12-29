@@ -1,0 +1,54 @@
+{
+  "info": [
+    {
+      "name": "Theoph",
+      "classes": "nfnGroupedData, nfGroupedData, groupedData, data.frame",
+      "size_mb": 0.0092
+    }
+  ],
+  "preview": [
+    {
+      "Subject": "1",
+      "Wt": 79.6,
+      "Dose": 4.02,
+      "Time": 0,
+      "conc": 0.74
+    },
+    {
+      "Subject": "1",
+      "Wt": 79.6,
+      "Dose": 4.02,
+      "Time": 0.25,
+      "conc": 2.84
+    },
+    {
+      "Subject": "1",
+      "Wt": 79.6,
+      "Dose": 4.02,
+      "Time": 0.57,
+      "conc": 6.57
+    },
+    {
+      "Subject": "1",
+      "Wt": 79.6,
+      "Dose": 4.02,
+      "Time": 1.12,
+      "conc": 10.5
+    },
+    {
+      "Subject": "1",
+      "Wt": 79.6,
+      "Dose": 4.02,
+      "Time": 2.02,
+      "conc": 9.66
+    },
+    {
+      "Subject": "1",
+      "Wt": 79.6,
+      "Dose": 4.02,
+      "Time": 3.82,
+      "conc": 8.58
+    }
+  ],
+  "time": ["2016-12-29 11:09:21"]
+}

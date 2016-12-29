@@ -1,0 +1,78 @@
+{
+  "info": [
+    {
+      "name": "sd_oral_richpk",
+      "classes": "data.frame",
+      "size_mb": 0.0337
+    }
+  ],
+  "preview": [
+    {
+      "ID": 1,
+      "Time": 0,
+      "Amt": 5000,
+      "Conc": 0,
+      "Age": 56.0959,
+      "Weight": 94.1965,
+      "Gender": "Male",
+      "Race": "Hispanic",
+      "Dose": 5000
+    },
+    {
+      "ID": 1,
+      "Time": 0.25,
+      "Amt": 0,
+      "Conc": 8.6128,
+      "Age": 56.0959,
+      "Weight": 94.1965,
+      "Gender": "Male",
+      "Race": "Hispanic",
+      "Dose": 5000
+    },
+    {
+      "ID": 1,
+      "Time": 0.5,
+      "Amt": 0,
+      "Conc": 19.4368,
+      "Age": 56.0959,
+      "Weight": 94.1965,
+      "Gender": "Male",
+      "Race": "Hispanic",
+      "Dose": 5000
+    },
+    {
+      "ID": 1,
+      "Time": 1,
+      "Amt": 0,
+      "Conc": 34.0067,
+      "Age": 56.0959,
+      "Weight": 94.1965,
+      "Gender": "Male",
+      "Race": "Hispanic",
+      "Dose": 5000
+    },
+    {
+      "ID": 1,
+      "Time": 2,
+      "Amt": 0,
+      "Conc": 30.2288,
+      "Age": 56.0959,
+      "Weight": 94.1965,
+      "Gender": "Male",
+      "Race": "Hispanic",
+      "Dose": 5000
+    },
+    {
+      "ID": 1,
+      "Time": 3,
+      "Amt": 0,
+      "Conc": 31.2996,
+      "Age": 56.0959,
+      "Weight": 94.1965,
+      "Gender": "Male",
+      "Race": "Hispanic",
+      "Dose": 5000
+    }
+  ],
+  "time": ["2016-12-29 11:09:07"]
+}
