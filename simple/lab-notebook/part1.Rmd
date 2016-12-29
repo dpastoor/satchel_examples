@@ -1,0 +1,27 @@
+# Part1
+
+```{r}
+library(satchel)
+library(PKPDdatasets)
+```
+
+```{r}
+satchel <- Satchel$new("part1", "../data/derived/satchel")
+```
+
+```{r}
+satchel$save(Theoph)
+satchel$save(Theoph, data_name = "other_theoph")
+satchel$save(sd_oral_richpk)
+```
+
+Print information about all objects saved in this session with `report`
+```{r}
+satchel$report()
+```
+
+```{r}
+devtools::session_info()
+```
+
+

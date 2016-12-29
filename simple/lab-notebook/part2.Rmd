@@ -1,0 +1,35 @@
+# Part 2
+
+```{r}
+library(satchel)
+library(PKPDdatasets)
+```
+
+```{r}
+satchel <- Satchel$new("part2", "../data/derived/satchel")
+```
+
+```{r}
+satchel$save(Theoph)
+satchel$save(sd_iv_rich_pkpd)
+```
+
+can also use files from a previously created satchel
+
+```{r}
+# see whats available
+satchel$available()
+
+any_name_i_want <- satchel$use("sd_oral_richpk")
+head(any_name_i_want)
+```
+
+```{r}
+satchel$report()
+```
+
+```{r}
+devtools::session_info()
+```
+
+

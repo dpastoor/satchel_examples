@@ -1,0 +1,45 @@
+# Part 3
+
+```{r}
+library(satchel)
+```
+
+```{r}
+satchel <- Satchel$new("part3", "../data/derived/satchel")
+```
+
+```{r}
+# see whats available
+satchel$available()
+```
+
+If I want to use sd_oral_richpk, I can still reference it directly as it was only created in Part1
+
+```{r}
+pkdat <- satchel$use("sd_oral_richpk")
+head(pkdat)
+```
+
+However, an object named `Theoph` was saved in both Part1 and part 2
+
+```{r, eval = F}
+satchel$use("Theoph")
+```
+
+```
+Error in satchel$use("Theoph") : multiple matches found, please specify where the data was specified as well
+```
+
+so we must specify what namespace it was saved in explicitly
+
+```{r}
+theoph <- satchel$use("Theoph", "part1")
+head(Theoph)
+```
+
+
+```{r}
+devtools::session_info()
+```
+
+
