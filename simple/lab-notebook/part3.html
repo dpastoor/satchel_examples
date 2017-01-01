@@ -158,8 +158,17 @@ head(Theoph)</code></pre>
 ## 4       1 79.6 4.02 1.12 10.50
 ## 5       1 79.6 4.02 2.02  9.66
 ## 6       1 79.6 4.02 3.82  8.58</code></pre>
+<p>If the dataset was large and I didn’t want to load it completely, I could also check it quickly with preview, which will pull from a separate metadata cache satchel keeps track of, so the entire object does not have to be loaded. This can be significant in memory/time savings when dealing with large objects.</p>
+<pre class="r"><code>satchel$preview(&quot;Theoph&quot;, &quot;part1&quot;)</code></pre>
+<pre><code>##   Subject   Wt Dose Time  conc
+## 1       1 79.6 4.02 0.00  0.74
+## 2       1 79.6 4.02 0.25  2.84
+## 3       1 79.6 4.02 0.57  6.57
+## 4       1 79.6 4.02 1.12 10.50
+## 5       1 79.6 4.02 2.02  9.66
+## 6       1 79.6 4.02 3.82  8.58</code></pre>
 <pre class="r"><code>devtools::session_info()</code></pre>
-<pre><code>## Session info --------------------------------------------------------------</code></pre>
+<pre><code>## Session info -------------------------------------------------------------</code></pre>
 <pre><code>##  setting  value                       
 ##  version  R version 3.3.2 (2016-10-31)
 ##  system   x86_64, mingw32             
@@ -167,25 +176,31 @@ head(Theoph)</code></pre>
 ##  language (EN)                        
 ##  collate  English_United States.1252  
 ##  tz       America/New_York            
-##  date     2016-12-29</code></pre>
-<pre><code>## Packages ------------------------------------------------------------------</code></pre>
-<pre><code>##  package   * version  date       source                            
-##  backports   1.0.4    2016-10-24 CRAN (R 3.3.2)                    
-##  devtools    1.12.0   2016-06-24 CRAN (R 3.3.2)                    
-##  digest      0.6.10   2016-08-02 CRAN (R 3.3.2)                    
-##  evaluate    0.10     2016-10-11 CRAN (R 3.3.2)                    
-##  htmltools   0.3.5    2016-03-21 CRAN (R 3.3.2)                    
-##  knitr       1.15.1   2016-11-22 CRAN (R 3.3.2)                    
-##  magrittr    1.5      2014-11-22 CRAN (R 3.3.2)                    
-##  memoise     1.0.0    2016-01-29 CRAN (R 3.3.2)                    
-##  R6          2.2.0    2016-10-05 CRAN (R 3.3.2)                    
-##  Rcpp        0.12.8.3 2016-12-29 Github (RcppCore/Rcpp@2883ef3)    
-##  rmarkdown   1.2.9000 2016-12-14 Github (rstudio/rmarkdown@7a3df75)
-##  rprojroot   1.1      2016-10-29 CRAN (R 3.3.2)                    
-##  satchel   * 0.0.1    2016-12-29 local                             
-##  stringi     1.1.2    2016-10-01 CRAN (R 3.3.2)                    
-##  stringr     1.1.0    2016-08-19 CRAN (R 3.3.2)                    
-##  withr       1.0.2    2016-06-20 CRAN (R 3.3.2)</code></pre>
+##  date     2016-12-31</code></pre>
+<pre><code>## Packages -----------------------------------------------------------------</code></pre>
+<pre><code>##  package    * version     date       source                            
+##  assertthat   0.1         2013-12-06 CRAN (R 3.3.2)                    
+##  backports    1.0.4       2016-10-24 CRAN (R 3.3.2)                    
+##  devtools     1.12.0.9000 2016-12-29 Github (hadley/devtools@1ce84b0)  
+##  digest       0.6.10      2016-08-02 CRAN (R 3.3.2)                    
+##  evaluate     0.10        2016-10-11 CRAN (R 3.3.2)                    
+##  htmltools    0.3.5       2016-03-21 CRAN (R 3.3.2)                    
+##  jsonlite     1.1         2016-09-14 CRAN (R 3.3.2)                    
+##  knitr        1.15.1      2016-11-22 CRAN (R 3.3.2)                    
+##  magrittr     1.5         2014-11-22 CRAN (R 3.3.2)                    
+##  memoise      1.0.0       2016-01-29 CRAN (R 3.3.2)                    
+##  pkgbuild     0.0.0.9000  2016-12-29 Github (r-pkgs/pkgbuild@65eace0)  
+##  pkgload      0.0.0.9000  2016-12-29 Github (r-pkgs/pkgload@def2b10)   
+##  R6           2.2.0       2016-10-05 CRAN (R 3.3.2)                    
+##  Rcpp         0.12.8.3    2016-12-29 Github (RcppCore/Rcpp@2883ef3)    
+##  readr        1.0.0       2016-08-03 CRAN (R 3.3.2)                    
+##  rmarkdown    1.3         2016-12-29 Github (rstudio/rmarkdown@3276760)
+##  rprojroot    1.1         2016-10-29 CRAN (R 3.3.2)                    
+##  satchel    * 0.0.2       2017-01-01 local                             
+##  stringi      1.1.2       2016-10-01 CRAN (R 3.3.2)                    
+##  stringr      1.1.0       2016-08-19 CRAN (R 3.3.2)                    
+##  tibble       1.2         2016-08-26 CRAN (R 3.3.2)                    
+##  withr        1.0.2       2016-06-20 CRAN (R 3.3.2)</code></pre>
 </div>
 
 

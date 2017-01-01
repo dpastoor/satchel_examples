@@ -37,6 +37,12 @@ theoph <- satchel$use("Theoph", "part1")
 head(Theoph)
 ```
 
+If the dataset was large and I didn't want to load it completely, I could also check it quickly with preview, which will pull from a separate metadata cache satchel keeps track of, so the entire object does not have to be loaded. This can be significant in memory/time savings when dealing with large objects.
+
+```{r}
+satchel$preview("Theoph", "part1")
+```
+
 
 ```{r}
 devtools::session_info()
