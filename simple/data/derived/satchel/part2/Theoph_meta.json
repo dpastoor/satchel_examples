@@ -6,7 +6,7 @@
       "size_mb": 0.0092
     }
   ],
-  "preview": [
+  "json_preview": [
     {
       "Subject": "1",
       "Wt": 79.6,
@@ -50,5 +50,6 @@
       "conc": 8.58
     }
   ],
-  "time": ["2016-12-29 11:09:21"]
+  "r_preview": ["{\"type\":\"list\",\"attributes\":{\"names\":{\"type\":\"character\",\"attributes\":{},\"value\":[\"Subject\",\"Wt\",\"Dose\",\"Time\",\"conc\"]},\"formula\":{\"type\":\"language\",\"attributes\":{\"class\":{\"type\":\"character\",\"attributes\":{},\"value\":[\"formula\"]},\".Environment\":{\"type\":\"environment\",\"attributes\":{},\"value\":{}}},\"value\":[\"conc ~ Time | Subject\"]},\"labels\":{\"type\":\"list\",\"attributes\":{\"names\":{\"type\":\"character\",\"attributes\":{},\"value\":[\"x\",\"y\"]}},\"value\":[{\"type\":\"character\",\"attributes\":{},\"value\":[\"Time since drug administration\"]},{\"type\":\"character\",\"attributes\":{},\"value\":[\"Theophylline concentration in serum\"]}]},\"units\":{\"type\":\"list\",\"attributes\":{\"names\":{\"type\":\"character\",\"attributes\":{},\"value\":[\"x\",\"y\"]}},\"value\":[{\"type\":\"character\",\"attributes\":{},\"value\":[\"(hr)\"]},{\"type\":\"character\",\"attributes\":{},\"value\":[\"(mg/l)\"]}]},\"row.names\":{\"type\":\"integer\",\"attributes\":{},\"value\":[1,2,3,4,5,6]},\"class\":{\"type\":\"character\",\"attributes\":{},\"value\":[\"nfnGroupedData\",\"nfGroupedData\",\"groupedData\",\"data.frame\"]}},\"value\":[{\"type\":\"integer\",\"attributes\":{\"levels\":{\"type\":\"character\",\"attributes\":{},\"value\":[\"6\",\"7\",\"8\",\"11\",\"3\",\"2\",\"4\",\"9\",\"12\",\"10\",\"1\",\"5\"]},\"class\":{\"type\":\"character\",\"attributes\":{},\"value\":[\"ordered\",\"factor\"]}},\"value\":[11,11,11,11,11,11]},{\"type\":\"double\",\"attributes\":{},\"value\":[79.6,79.6,79.6,79.6,79.6,79.6]},{\"type\":\"double\",\"attributes\":{},\"value\":[4.02,4.02,4.02,4.02,4.02,4.02]},{\"type\":\"double\",\"attributes\":{},\"value\":[0,0.25,0.57,1.12,2.02,3.82]},{\"type\":\"double\",\"attributes\":{},\"value\":[0.74,2.84,6.57,10.5,9.66,8.58]}]}"],
+  "time": ["2016-12-31 22:56:22"]
 }
